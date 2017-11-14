@@ -1,0 +1,11 @@
+name: setup-go-workspace
+version: 2.0.0
+summary: Adds the project to the Go workspace directory hierarchy.
+properties:
+- name: gopath
+  type: string
+  default: "$GOPATH"
+  required: false
+- name: package-dir
+  type: string
+  required: false
